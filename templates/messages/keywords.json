@@ -1,0 +1,41 @@
+{
+  "goroutines": {
+    "keywords": ["goroutine", "concurrency", "parallelism"],
+    "text": "Goroutines - Go tilidagi yengil thread-lar. Ular juda kamroq resurs talab qiladi va minglab goroutine-larni bir vaqtda ishlatish mumkin."
+  },
+  "channels": {
+    "keywords": ["channel", "kanal"],
+    "text": "Kanallar (channels) - goroutinalar o'rtasida ma'lumot almashinish uchun ishlatiladi. `make(chan Type)` orqali yaratiladi."
+  },
+  "interfaces": {
+    "keywords": ["interface", "interfeys"],
+    "text": "Interfeys - metodlar to'plami bo'lib, turli tuzilmalar (struct) tomonidan amalga oshirilishi mumkin."
+  },
+  "errors": {
+    "keywords": ["error", "xato", "handling"],
+    "text": "Go da xatolarni qayta ishlash `if err != nil` sxemasi orqali amalga oshiriladi. panic/recover ham mavjud, lekin kamroq ishlatiladi."
+  },
+  "structs": {
+    "keywords": ["struct", "tuzilma"],
+    "text": "Struct - Go da ma'lumotlarni guruhlashtirish uchun ishlatiladi. Masalan:\n```\ntype User struct {\n  Name string\n  Age  int\n}\n```"
+  },
+  "slices": {
+    "keywords": ["slice", "array", "massiv"],
+    "text": "Slice - Go da o'zgaruvchan uzunlikdagi massivlar. `[]Type` ko'rinishida e'lon qilinadi."
+  },
+  "maps": {
+    "keywords": ["map", "xarita"],
+    "text": "Map - Go da kalit-qiymat juftliklarini saqlash uchun ishlatiladi. `map[KeyType]ValueType` ko'rinishida e'lon qilinadi."
+  },
+  "packages": {
+    "keywords": ["package", "import", "paket"],
+    "text": "Go da kodni paketlar orqali tashkil qilish mumkin. `import` kalit so'zi bilan boshqa paketlarni import qilasiz."
+  },
+  "testing": {
+    "keywords": ["test", "testing", "sinov"],
+    "text": "Go da testlar `*_test.go` fayllari orqali yoziladi va `go test` buyrug'i bilan ishga tushiriladi."
+  },
+  "default": {
+    "text": "Bu savolga qiziqish bildirganingiz uchun rahmat! Go bo'yicha batafsil ma'lumot olish uchun https://go.dev saytiga tashrif buyuring."
+  }
+}
