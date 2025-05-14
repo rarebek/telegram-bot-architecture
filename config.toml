@@ -5,7 +5,7 @@ port = 8080
 
 # Telegram configuration
 [telegram]
-bot_token = "6591091545:AAGhINK25aA-x3u15l9bsakuIRXlifMrOBY"
+bot_token = "6591091545:AAF8EMR90Bb5FcD0qzsyzosj1B9BqKFLEPQ"
 
 # Database configuration
 [postgres]
