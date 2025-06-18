@@ -1,11 +1,11 @@
 # Server configuration
 [server]
-public_url = "https://bot.jprq.site"
+public_url = "https://example.com"
 listen = ":8080"
 
 # Telegram configuration
 [telegram]
-token = "7942813017:AAFl0U00s6kGEKF9GMkAjh3T_cCN8QIZlM0"
+token = "YOUR_TELEGRAM_BOT_TOKEN"
 
 # Database configuration
 [database]
