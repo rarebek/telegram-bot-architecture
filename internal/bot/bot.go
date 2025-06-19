@@ -38,6 +38,12 @@ func New(cfg config.Config) (*App, error) {
 	// register command and message handlers in a dedicated package to keep bot clean
 	handlers.Register(a.Bot)
 
+	a.Bot.SetCommands([]tele.Command{
+		{Text: "start", Description: "botni boshlash"},
+		{Text: "help", Description: "yordam va buyruqlar"},
+		{Text: "useful", Description: "foydali havolalar menyusi"},
+	})
+
 	return a, nil
 }
 
@@ -51,7 +57,7 @@ func (a *App) SetupWebhook() error {
 
 	a.Bot.Poller = wh
 
-	slog.Info("starting bot with webhook poller")
+	slog.Info("starting bot with webhook")
 	a.Bot.Start()
 	return nil
 }
